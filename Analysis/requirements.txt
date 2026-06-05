@@ -1,0 +1,7 @@
+# 依赖包
+requests>=2.31.0
+PyYAML>=6.0.0
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+numpy>=1.26.0
+faiss-cpu>=1.7.0

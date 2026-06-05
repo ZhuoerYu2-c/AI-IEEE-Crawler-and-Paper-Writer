@@ -1,0 +1,53 @@
+# Secrets
+.env
+*.env
+!.env.example
+!**/.env.example
+
+# OS/editor files
+.DS_Store
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Generated Analysis data
+Analysis/data/raw/*
+Analysis/data/example/*
+Analysis/data/cleaned/*
+Analysis/data/example_cleaned/*
+Analysis/data/chunks/*
+Analysis/data/example_chunks/*
+Analysis/index/*
+Analysis/style_index/*
+Analysis/outputs/*
+Analysis/src/outputs/*
+
+!Analysis/data/raw/.gitkeep
+!Analysis/data/example/.gitkeep
+!Analysis/data/cleaned/.gitkeep
+!Analysis/data/example_cleaned/.gitkeep
+!Analysis/data/chunks/.gitkeep
+!Analysis/data/example_chunks/.gitkeep
+!Analysis/index/.gitkeep
+!Analysis/style_index/.gitkeep
+!Analysis/outputs/.gitkeep
+
+# Generated DownloadPDF data
+DownloadPDF/Paper_test/pdfs/*
+DownloadPDF/Paper_test/mineru_out/*
+DownloadPDF/Paper_test/*.csv
+DownloadPDF/Paper_test/*.json
+DownloadPDF/tmp_profiles/*
+DownloadPDF/ieee_profile/
+*.part
+
+!DownloadPDF/Paper_test/pdfs/.gitkeep
+!DownloadPDF/Paper_test/mineru_out/.gitkeep
+!DownloadPDF/tmp_profiles/.gitkeep

@@ -1,0 +1,46 @@
+# 路径配置
+paths:
+  raw_dir: "data/raw"
+  example_dir: "data/example"
+  cleaned_dir: "data/cleaned"
+  example_cleaned_dir: "data/example_cleaned"
+  chunks_dir: "data/chunks"
+  example_chunks_dir: "data/example_chunks"
+  index_dir: "index"
+  style_index_dir: "style_index"
+  outputs_dir: "outputs"
+  skeleton_path: "outputs/skeleton.md"
+  topic_config_path: "configs/topic.yaml"
+
+# 文本分块配置
+chunking:
+  max_chars: 2200
+  overlap_chars: 300
+  min_chars: 300
+  split_on_headings: true
+
+# 检索配置
+retrieval:
+  top_k: 10
+  style_top_k: 4
+  context_max_chars: 12000
+  style_context_max_chars: 5000
+
+# ========== 运行配置（通常无需改动）==========
+paper:
+  min_section_chars: 900
+
+# LLM 配置（MiniMax）
+llm:
+  base_url: "https://api.minimaxi.com/v1"
+  model: "MiniMax-M2.5-highspeed"
+  temperature: 0.3
+  max_tokens_section: 4200
+  max_tokens_summary: 900
+  timeout_s: 180
+
+# Embedding 配置
+embedding:
+  model: "text-embedding-v4"
+  dimensions: 1024
+  batch_size: 10

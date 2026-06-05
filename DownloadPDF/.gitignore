@@ -1,0 +1,9 @@
+tmp_profiles/*
+Paper_test/pdfs/*
+Paper_test/mineru_out/*
+__pycache__/
+*.pyc
+
+!tmp_profiles/.gitkeep
+!Paper_test/pdfs/.gitkeep
+!Paper_test/mineru_out/.gitkeep
