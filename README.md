@@ -1,6 +1,6 @@
-# Smart Manufacturing Competition - Yu
+# AI IEEE Crawler and Paper Writer
 
-This repository contains the Yu subproject for the Smart Manufacturing Competition. It includes two workflows:
+This repository contains an AI-assisted workflow for crawling IEEE papers and generating academic paper drafts. It includes two workflows:
 
 - `DownloadPDF`: search and download IEEE papers, then convert PDFs with MinerU.
 - `Analysis`: clean local paper text, build a retrieval index, and generate academic report sections with LLMs.
